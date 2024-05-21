@@ -1,0 +1,23 @@
+Tipografía:
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+//Variables
+$primary-color: #EE5243;
+$secondary-color:#E3F098;
+$background-color: #FFF3B5;
+$font-stack: "Abril Fatface", serif;
+$font-stack2:"Josefin Sans", sans-serif;
+$card-width: 400px;
+$card-padding: 35px;
+
+// Mixin para sombra
+@mixin box-shadow($x, $y, $blur, $color) {
+    -webkit-box-shadow: $x $y $blur $color;
+    -moz-box-shadow: $x $y $blur $color;
+    box-shadow: $x $y $blur $color;
+}
+
+//Clases extendidas
+
+
+// Anidación y operadores
